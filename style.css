@@ -32,7 +32,7 @@ input,button{
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -116,7 +116,7 @@ input,button{
   width: 226px;
 }
 .text-input {
-  width: 226px
+  width: 226px;
 }
 .delete-button img {
   height: 2em;
@@ -129,13 +129,13 @@ input,button{
 
 /* Completed */
 .task-label-complete {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-item .text-input {
-  display: none
+  display: none;
 }
 
 .edit-task-item .text-input {
